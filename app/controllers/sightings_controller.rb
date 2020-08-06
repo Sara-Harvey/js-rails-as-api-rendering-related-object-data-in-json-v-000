@@ -5,5 +5,4 @@ class SightingsController < ApplicationController
     render json: { id: sighting.id, bird: sighting.bird, location: sighting.location }
   end
   
-  
 end
